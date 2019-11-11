@@ -1,8 +1,8 @@
-#For Getting data from database with querry
-Post Request:
+<h1>For Getting data from database with querry</h1>
+<h5>Post Request:</h5>
 http://localhost:5000/api/v1/dbdata/
 
-with payload:
+<h5>with payload:</h5>
 
 {
 "db_credentials":{
@@ -15,7 +15,7 @@ with payload:
 
 }
 
-get the response:
+<h5>Get the Response:</h5>
 
 {
 data: [],
@@ -23,11 +23,11 @@ status: "successful"/"unsuccessful"
 message:""
 }
 
-#For Getting data from database with querry and mailing to some email addresses after creating a CSV with the data
-Post Request:
+<h1>For Getting data from database with querry and mailing to some email addresses after creating a CSV with the data<h1>
+<h5>Post Request:</h5>
 http://localhost:5000/api/v1/dbdata/
 
-with payload:
+<h5>with payload:</h5>
 
 {
 "db_credentials":{
@@ -47,11 +47,12 @@ with payload:
 },
 "mail_to":"fahad.khan@gmail.com,fahadtanim@gmail.com",
 "mail_subject":"Ajaira mail",
-"mail_body":"<h1>Hello</h1>"
+"mail_body":"Hello"
 }
 
 }
 
+<h5>Get the Response</h5>
 {
 "status": "successful"/"unsuccessful",
 "message": ""
