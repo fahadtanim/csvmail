@@ -1,8 +1,8 @@
 <h1>For Getting data from database with querry</h1>
-<h5>Post Request:</h5>
+<h3>Post Request:</h3>
 http://localhost:5000/api/v1/dbdata/
 
-<h5>with payload:</h5>
+<h3>with payload:</h3>
 
 {
 "db_credentials":{
@@ -15,7 +15,7 @@ http://localhost:5000/api/v1/dbdata/
 
 }
 
-<h5>Get the Response:</h5>
+<h3>Get the Response:</h3>
 
 {
 data: [],
@@ -24,10 +24,10 @@ message:""
 }
 
 <h1>For Getting data from database with querry and mailing to some email addresses after creating a CSV with the data<h1>
-<h5>Post Request:</h5>
-http://localhost:5000/api/v1/dbdata/
+<h3>Post Request:</h3>
+http://localhost:5000/api/v1/csvmail/
 
-<h5>with payload:</h5>
+<h3>with payload:</h3>
 
 {
 "db_credentials":{
@@ -52,7 +52,7 @@ http://localhost:5000/api/v1/dbdata/
 
 }
 
-<h5>Get the Response</h5>
+<h3>Get the Response</h3>
 {
 "status": "successful"/"unsuccessful",
 "message": ""
