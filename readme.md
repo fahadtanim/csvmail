@@ -9,6 +9,7 @@
 <h5>run "node index.js"</h5> <h4>Or</h4> <h5>run "npm run dev"</h5>
 
 <h2>All the Application Logs are generated in "infoimage.log" file</h2>
+<h2>All the configurations are in "appConfig.js" file</h2>
 
 <h1>For Getting data from database with querry</h1>
 <h3>Post Request:</h3>
