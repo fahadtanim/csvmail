@@ -1,12 +1,22 @@
 const DBDataRepository = require("../Data/DBDataRepository");
+const Logger = require("../Services/LoggerService");
 class DBDataService {
   async getDBData(data) {
-    let querryData = await DBDataRepository.getQuerryData(
+    Logger.info(
+      "DBDataService.getDBData() - Come to DBDataService's getDBData Method"
+    );
+    let queryData = await DBDataRepository.getQueryData(
       data.db_credentials,
-      data.querry
+      data.query
     );
 
-    return querryData;
+    Logger.debug(
+      "DBDataService.getDBData() - @Data - \n",
+      data,
+      "\n@QueryData - ",
+      queryData
+    );
+    return queryData;
   }
 }
 
