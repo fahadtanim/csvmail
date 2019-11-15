@@ -1,0 +1,81 @@
+[2019-11-16T01:40:34.366] [INFO] infoimage - DBDataRouter.post("/") - Post Request to api/v1/dbdata/
+[2019-11-16T01:40:34.370] [INFO] infoimage - DBDataController.getData() - DBDataController getData Method
+[2019-11-16T01:40:34.370] [INFO] infoimage - DBDataController.getData() - Trying to get data from DBDataService.getDBData()
+[2019-11-16T01:40:34.370] [INFO] infoimage - DBDataService.getDBData() - Come to DBDataService's getDBData Method
+[2019-11-16T01:40:34.370] [INFO] infoimage - DBDataService.getDBData() - Come to DBDataService's getDBData Method
+[2019-11-16T01:40:34.478] [INFO] infoimage - DBDataController.getData() - @Res -  { data: 
+   [ RowDataPacket {
+       client_id: 1,
+       cid: 'amac',
+       client_name: 'american manufacturur abal co.',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' },
+     RowDataPacket {
+       client_id: 2,
+       cid: 'SEFC',
+       client_name: 'Sylhet Executive Faltu Bank',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' },
+     RowDataPacket {
+       client_id: 3,
+       cid: 'necu',
+       client_name: 'this is a faltu bank',
+       client_description: 'hellow world' },
+     RowDataPacket {
+       client_id: 4,
+       cid: 'amac',
+       client_name: 'american manufacturur abal co.',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' },
+     RowDataPacket {
+       client_id: 5,
+       cid: 'amac',
+       client_name: 'american manufacturur abal co.',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' },
+     RowDataPacket {
+       client_id: 6,
+       cid: 'amac',
+       client_name: 'american manufacturur abal co.',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' },
+     RowDataPacket {
+       client_id: 7,
+       cid: 'amac',
+       client_name: 'american manufacturur abal co.',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' },
+     RowDataPacket {
+       client_id: 8,
+       cid: 'amac',
+       client_name: 'american manufacturur abal co.',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' },
+     RowDataPacket {
+       client_id: 9,
+       cid: 'amac',
+       client_name: 'american manufacturur abal co.',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' },
+     RowDataPacket {
+       client_id: 10,
+       cid: 'amac',
+       client_name: 'american manufacturur abal co.',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' },
+     RowDataPacket {
+       client_id: 11,
+       cid: 'amac',
+       client_name: 'american manufacturur abal co.',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' },
+     RowDataPacket {
+       client_id: 12,
+       cid: 'amac',
+       client_name: 'american manufacturur abal co.',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' },
+     RowDataPacket {
+       client_id: 13,
+       cid: 'amac',
+       client_name: 'american manufacturur abal co.',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' },
+     RowDataPacket {
+       client_id: 14,
+       cid: 'amac',
+       client_name: 'american manufacturur abal co.',
+       client_description: 'Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud Lorem Ipsum Indt aastrud ' } ],
+  status: 'successful',
+  message: '' }
+[2019-11-16T01:40:34.486] [INFO] infoimage - ::1 - undefined - METHOD = "POST", URL = "/api/v1/dbdata/", HTTP/1.1 STATUS = 200, CONTENT_LENGTH = 4374, REFERER = "", USER_AGENT = "PostmanRuntime/7.19.0" RESPONSE_TIME = "116 ms"
+[2019-11-16T01:41:19.754] [INFO] infoimage - Server Started at Port "5000"
+[2019-11-16T01:41:27.653] [INFO] infoimage - Server Started at Port "5000"

@@ -13,7 +13,7 @@ class DBDataController {
       res.data = await DBDataService.getDBData(data);
       res.status = "successful";
       res.message = "";
-      Logger.info("DBDataController.getData() - @Res - ", res);
+      Logger.debug("DBDataController.getData() - @Res - ", res);
     } catch (err) {
       Logger.error(
         "DBDataController.getData() - ERROR - error while retrieving service data - \n",
@@ -22,7 +22,7 @@ class DBDataController {
       res.data = {};
       res.status = "unsuccessful";
       res.message = err;
-      Logger.info("DBDataController.getData() - @Res - ", res);
+      Logger.debug("DBDataController.getData() - @Res - ", res);
     }
     response.send(res);
   }

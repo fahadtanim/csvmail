@@ -1,4 +1,5 @@
 module.exports = {
+  logger_level: "info", // all || info || debug || warn || error || off
   database: {
     host: "localhost",
     username: "root",

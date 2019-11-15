@@ -1,4 +1,5 @@
 const log4js = require("log4js");
+const appConfig = require("../appConfig");
 log4js.configure({
   appenders: {
     infoimage: { type: "file", filename: "infoimage.log" }
@@ -7,6 +8,6 @@ log4js.configure({
 });
 
 const logger = log4js.getLogger("infoimage");
-logger.level = "all";
+logger.level = appConfig.logger_level;
 
 module.exports = logger;
